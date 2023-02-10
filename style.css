@@ -1,3 +1,26 @@
 body {
 	margin:0;
 }
+
+header {
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+header > p {
+	text-align: right;
+}
+#button-logo {
+	width: 40%;
+	display: flex;
+	border: 0;
+	background-color: unset;
+	padding: 0;
+	flex-direction: row;
+}
+
+#button-logo > h4 {
+	padding-left: 5px;
+}
